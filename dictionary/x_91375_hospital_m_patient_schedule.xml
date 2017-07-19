@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Doctor Availability" max_length="40" name="x_91375_hospital_m_patient_schedule" type="collection">
+        <element label="Availability Date" max_length="40" name="appointment_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Available End Time" max_length="40" name="available_end_time" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Available Start Time" max_length="40" name="available_start_time" type="string">
+            <choice/>
+        </element>
+        <element label="Doctor Name" max_length="32" name="consultant" reference="x_91375_hospital_m_doctor" type="reference"/>
+        <element choice="3" default="none" label="Day" max_length="40" name="day" type="choice">
+            <choice>
+                <element label="Sunday" sequence="0" value="0"/>
+                <element label="Monday" sequence="1" value="1"/>
+                <element label="Tuesday" sequence="2" value="2"/>
+                <element label="Wednesday" sequence="3" value="3"/>
+                <element label="Thursday" sequence="4" value="4"/>
+                <element label="Friday" sequence="5" value="5"/>
+                <element label="Saturday" sequence="6" value="6"/>
+            </choice>
+        </element>
+        <element label="Patient Name" max_length="32" name="patient_id" reference="x_91375_hospital_m_patient" type="reference"/>
+        <index name="index">
+            <element name="consultant"/>
+        </index>
+        <index name="index2">
+            <element name="patient_id"/>
+        </index>
+    </element>
+</database>

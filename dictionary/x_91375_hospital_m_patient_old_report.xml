@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="patient old report" max_length="40" name="x_91375_hospital_m_patient_old_report" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="patient name" max_length="40" name="patient_name" type="string"/>
+    </element>
+</database>

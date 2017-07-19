@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>arrows</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>0</order>
+        <roles/>
+        <sc_cat_item display_value="Appointment Form">dda7ad7ddbb3760071a271efbf96199a</sc_cat_item>
+        <sc_category/>
+        <short_description>Click To Provide details of Patient and to Get Appointment</short_description>
+        <size>md</size>
+        <sp_column display_value="3">d9118793dbff3a0071a271efbf961901</sp_column>
+        <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>prasad</sys_created_by>
+        <sys_created_on>2017-07-06 10:26:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>01f3e8e1dbb7360071a271efbf961905</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Appointment</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>sp_instance_link_01f3e8e1dbb7360071a271efbf961905</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-12 08:22:10</sys_updated_on>
+        <title>Appointment</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+</record_update>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($scope) {
+  /* widget controller */
+  var c = this;
+
+datetoday = new Date();
+
+	var display;
+thehour = datetoday.getHours();
+if (thehour > 18) display = "Evening";
+else if (thehour >12) display = "Afternoon";
+else display = "Morning";
+ c.greeting = ("Good " + display + "!  " + "Dr. " +$scope.data.greeting);
+}
+setTimeout(function() {
+    $('.clock').fadeOut('slow');
+}, 30000);]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data>{"options": 
+	{
+		"zone": "America/Los_Angeles",
+		"title": "San Diego, CA",
+		"c_color": "blue"
+	}
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>title</field_list>
+        <has_preview>true</has_preview>
+        <id>bala_clock</id>
+        <internal>false</internal>
+        <link><![CDATA[function (scope, $element, attrs) {
+	var element = $element[0];
+	cacheElementSize(scope, element);
+	$(window).on('resize', onWindowResize);
+	// run after layout
+	setTimeout(onWindowResize, 5);
+	
+	function cacheElementSize(scope, element) {
+		var elem = scope.elem = {}
+		elem.w = element.offsetWidth;
+		elem.h = element.offsetHeight;
+		return elem;
+	}
+
+	function onWindowResize() {
+		var elem = scope.elem;
+		var isSizeChanged = elem.w != element.offsetWidth || elem.h != element.offsetHeight;
+		if (isSizeChanged) {
+			elem = cacheElementSize(scope, element);
+			// to stay square, the child width has to be
+			// min of height, width
+			var w = Math.min(elem.h, elem.w);
+			var clock = element.firstChild;
+			clock.style.width = w + "px";
+		}
+	}	
+}]]></link>
+        <name>bala clock</name>
+        <option_schema>[
+	{
+		"name": "zone",
+		"label": "TimeZone",
+		"type": "string",
+		"default_value": "America/Los_Angeles"
+	},{
+		"name": "c_color",
+		"label": "Second hand color",
+		"type": "string",
+		"default_value": "red"
+	}
+]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[var greeting;
+a=gs.getUser().getName();
+b=a[0].toUpperCase()+a.substr(1) ;
+	data.greeting=b;
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>dinesh</sys_created_by>
+        <sys_created_on>2017-07-11 10:23:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d7431a0fdbf33a0071a271efbf96195a</sys_id>
+        <sys_mod_count>77</sys_mod_count>
+        <sys_name>bala clock</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>sp_widget_d7431a0fdbf33a0071a271efbf96195a</sys_update_name>
+        <sys_updated_by>dinesh</sys_updated_by>
+        <sys_updated_on>2017-07-13 12:24:26</sys_updated_on>
+        <template><![CDATA[<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div class="clock">
+  <div class="text-center  l-t-sm"><h3 style ="color:#d9534f;"> {{c.greeting}}</h3></div>
+    
+  
+</div>
+
+]]></template>
+    </sp_widget>
+</record_update>

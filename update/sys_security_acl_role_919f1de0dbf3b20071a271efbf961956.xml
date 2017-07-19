@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-03 12:12:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>919f1de0dbf3b20071a271efbf961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_91375_hospital_m_patient.x_91375_hospital_m.user</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_security_acl display_value="x_91375_hospital_m_patient">999f1de0dbf3b20071a271efbf961953</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_919f1de0dbf3b20071a271efbf961956</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-03 12:12:43</sys_updated_on>
+        <sys_user_role display_value="x_91375_hospital_m.user" name="x_91375_hospital_m.user">f2f299e8dbb3b20071a271efbf961998</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

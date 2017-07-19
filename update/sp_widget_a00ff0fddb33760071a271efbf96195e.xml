@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>drop_down_knowledge_articles</id>
+        <internal>false</internal>
+        <link/>
+        <name>Drop down knowledge articles</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>dinesh</sys_created_by>
+        <sys_created_on>2017-07-07 07:02:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a00ff0fddb33760071a271efbf96195e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Drop down knowledge articles</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>sp_widget_a00ff0fddb33760071a271efbf96195e</sys_update_name>
+        <sys_updated_by>dinesh</sys_updated_by>
+        <sys_updated_on>2017-07-07 07:03:08</sys_updated_on>
+        <template><![CDATA[<div class="col-sm-3">
+            <a href="#" class="nav-tabs-dropdown btn btn-block btn-primary">Tabs</a>
+            <ul id="nav-tabs-wrapper" class="nav nav-tabs nav-pills nav-stacked well">
+              <li class="active"><a href="#vtab1" data-toggle="tab">Tab 1</a></li>
+              <li><a href="#vtab2" data-toggle="tab">Tab 2</a></li>
+              <li><a href="#vtab3" data-toggle="tab">Tab 3</a></li>
+            </ul>
+        </div>]]></template>
+    </sp_widget>
+</record_update>

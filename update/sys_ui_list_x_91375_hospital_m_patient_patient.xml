@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_91375_hospital_m_patient" version="2" view="patient">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user_name</element>
+            <list_id display_value="x_91375_hospital_m_patient" element="NULL" name="x_91375_hospital_m_patient" parent="NULL" relationship="NULL" sys_domain="global" view="e18859acdbb3b20071a271efbf961978">9bbaa9a8dbf3b20071a271efbf96193b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-03 13:01:27</sys_created_on>
+            <sys_id>13baa9a8dbf3b20071a271efbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-03 13:01:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_91375_hospital_m_patient" element="NULL" name="x_91375_hospital_m_patient" parent="NULL" relationship="NULL" sys_domain="global" view="e18859acdbb3b20071a271efbf961978">9bbaa9a8dbf3b20071a271efbf96193b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-03 13:01:27</sys_created_on>
+            <sys_id>93baa9a8dbf3b20071a271efbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-03 13:01:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>email</element>
+            <list_id display_value="x_91375_hospital_m_patient" element="NULL" name="x_91375_hospital_m_patient" parent="NULL" relationship="NULL" sys_domain="global" view="e18859acdbb3b20071a271efbf961978">9bbaa9a8dbf3b20071a271efbf96193b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-03 13:01:27</sys_created_on>
+            <sys_id>17baa9a8dbf3b20071a271efbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-03 13:01:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_91375_hospital_m_patient</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-03 13:01:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bbaa9a8dbf3b20071a271efbf96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_91375_hospital_m_patient</sys_name>
+            <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+            <sys_update_name>sys_ui_list_x_91375_hospital_m_patient_patient</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-03 13:01:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Patient" name="patient">e18859acdbb3b20071a271efbf961978</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

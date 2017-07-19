@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Appointment Form">dda7ad7ddbb3760071a271efbf96199a</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>prasad</sys_created_by>
+        <sys_created_on>2017-07-07 11:16:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>901971fddbf3760071a271efbf96192d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Changing the place of submit.Enroll Form</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>io_set_item_901971fddbf3760071a271efbf96192d</sys_update_name>
+        <sys_updated_by>prasad</sys_updated_by>
+        <sys_updated_on>2017-07-07 11:16:28</sys_updated_on>
+        <variable_set display_value="Changing the place of submit">66f87931db37760071a271efbf961989</variable_set>
+    </io_set_item>
+</record_update>

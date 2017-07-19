@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>patient_name,consulting_time</field_list>
+        <filter table="x_91375_hospital_m_appintment">doctor_to_meetLIKEjavascript: my()^consulting_dateONToday@javascript:gs.daysAgoStart(-2)@javascript:gs.daysAgoEnd(-2)<item endquery="false" field="doctor_to_meet" goto="false" newquery="false" operator="LIKE" or="false" value="javascript: my()"/>
+            <item endquery="false" field="consulting_date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.daysAgoStart(-2)@javascript:gs.daysAgoEnd(-2)"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>0</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">d7537745dbfbf20071a271efbf961924</sp_column>
+        <sp_page/>
+        <sp_widget display_value="data table without breadcrumbs">96b6d7c9db7bf20071a271efbf961958</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>dinesh</sys_created_by>
+        <sys_created_on>2017-07-05 08:55:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ea85c3cddb3bf20071a271efbf961910</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Today Appointment</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>sp_instance_table_ea85c3cddb3bf20071a271efbf961910</sys_update_name>
+        <sys_updated_by>dinesh</sys_updated_by>
+        <sys_updated_on>2017-07-10 11:12:54</sys_updated_on>
+        <table>x_91375_hospital_m_appintment</table>
+        <title>Today Appointment</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Test_activity" max_length="40" name="x_91375_hospital_m_test_activity" sizeclass="2" type="collection">
+        <element label="patient name" max_length="32" name="patient_name" reference="x_91375_hospital_m_patient" type="reference"/>
+        <element choice="1" label="result" max_length="40" name="result" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="stage" max_length="40" name="stage" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Test Name" max_length="40" name="test_name" type="choice">
+            <choice>
+                <element label="General" sequence="0" value="General"/>
+                <element label="Basic" sequence="1" value="2"/>
+                <element label="Intensive" sequence="2" value="3"/>
+                <element label="Standard" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test Type" max_length="40" name="test_type" type="choice">
+            <choice>
+                <element label="Blood TEST" sequence="0" value="Blood TEST"/>
+                <element label="Urine TEST" sequence="1" value="Urine TEST"/>
+                <element label="BLOOD GLUCOSE" sequence="2" value="BLOOD GLUCOSE"/>
+                <element label="VITAMIN B12 AND FOLATE" sequence="3" value="VITAMIN B12 AND FOLATE"/>
+            </choice>
+        </element>
+    </element>
+</database>

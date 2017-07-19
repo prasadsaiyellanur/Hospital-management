@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="when_to_take" table="x_91375_hospital_m_prescription" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>when_to_take</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>morning</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_prescription</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-11 08:05:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94b3f98fdb733a0071a271efbf961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-11 08:05:23</sys_updated_on>
+            <value>morning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>when_to_take</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>lunch</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_prescription</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-11 08:05:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94b3f98fdb733a0071a271efbf961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-11 08:05:23</sys_updated_on>
+            <value>lunch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>when_to_take</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>afternoon</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_prescription</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-11 08:05:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0b3f98fdb733a0071a271efbf961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-11 08:05:23</sys_updated_on>
+            <value>afternoon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>when_to_take</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>dinner</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_prescription</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-11 08:05:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10b3f98fdb733a0071a271efbf961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-11 08:05:23</sys_updated_on>
+            <value>dinner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>when_to_take</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>all</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_prescription</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-11 08:05:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cb3f98fdb733a0071a271efbf961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-11 08:05:23</sys_updated_on>
+            <value>all</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>when_to_take</element>
+            <name>x_91375_hospital_m_prescription</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-11 08:05:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>50b3f98fdb733a0071a271efbf961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>when_to_take</sys_name>
+            <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+            <sys_update_name>sys_choice_x_91375_hospital_m_prescription_when_to_take</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-11 08:05:23</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

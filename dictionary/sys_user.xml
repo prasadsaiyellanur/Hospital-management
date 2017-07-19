@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="ref_ac_columns_search=true,global_search_config_handler=UserConfig,ref_ac_order_by=name,text_index_translations=true,ref_ac_columns=email,display_image=photo,ref_auto_completer=AJAXTableCompleter,iterativeDelete=true,metadata_link_exempt=true" create_roles="user_admin" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="User" max_length="40" name="sys_user" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="1000" name="x_91375_hospital_m_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Age" max_length="40" name="x_91375_hospital_m_age" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Availability of doctors" max_length="40" name="x_91375_hospital_m_availability_of_doctors" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Blood group" max_length="40" name="x_91375_hospital_m_blood_group" type="string"/>
+        <element active="false" label="Consultant" max_length="32" name="x_91375_hospital_m_consultant" reference="x_91375_hospital_m_doctor" type="reference"/>
+        <element label="doctor" max_length="40" name="x_91375_hospital_m_doctor" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="gender" max_length="40" name="x_91375_hospital_m_gender" type="string">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="x_91375_hospital_m_consultant"/>
+        </index>
+    </element>
+</database>

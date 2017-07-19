@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Hour schedule" max_length="40" name="x_91375_hospital_m_schedule_per_hour" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Appointment slot" mandatory="true" max_length="40" name="appointment_slot" type="string">
+            <choice>
+                <element label="9 A.M" sequence="0" value="9 A.M"/>
+                <element label="10 A.M" sequence="1" value="10 A.M"/>
+                <element label="11 A.M" sequence="2" value="11 A.M"/>
+                <element label="12 A.M" sequence="3" value="12 A.M"/>
+                <element label="1 P.M" sequence="4" value="1 P.M"/>
+                <element label="2 P.M" sequence="5" value="2 P.M"/>
+                <element label="3 P.M" sequence="6" value="3 P.M"/>
+                <element label="4 P.M" sequence="7" value="4 P.M"/>
+                <element label="5 P.M" sequence="8" value="5 P.M"/>
+            </choice>
+        </element>
+        <element label="Date" mandatory="true" max_length="40" name="date" type="glide_date"/>
+        <element label="Doctor Name" mandatory="true" max_length="32" name="doctor_name" reference="x_91375_hospital_m_doctor" type="reference"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_91375_hospital_m_patient" type="reference"/>
+        <element label="Week number" max_length="40" name="week_number" type="integer"/>
+        <index name="index">
+            <element name="patient"/>
+        </index>
+        <index name="index2">
+            <element name="doctor_name"/>
+        </index>
+    </element>
+</database>

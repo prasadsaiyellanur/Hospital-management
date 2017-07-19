@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="task" label="Hospital management Table" max_length="40" name="x_91375_hospital_m_hospital_management_table" sizeclass="100" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element label="General" sequence="0" value="General"/>
+                <element label="Cardiology" sequence="1" value="Cardiology"/>
+                <element label="Neurology" sequence="2" value="Neurology"/>
+                <element label="Gynecology" sequence="3" value="Gynecology"/>
+                <element label="Orthopedics" sequence="4" value="Orthopedics"/>
+            </choice>
+        </element>
+        <element label="Doctor name" max_length="32" name="doctor_name" reference="sys_user" reference_qual="x_91375_hospital_m_doctor=true^EQ" reference_qual_condition="x_91375_hospital_m_doctor=true^EQ" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Ghh" max_length="1024" name="ghh" reference="x_91375_hospital_m_doctor" type="glide_list"/>
+        <element label="patient name" max_length="32" name="patient_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Testing type" max_length="40" name="testing_type" type="string">
+            <choice>
+                <element label="Basic" sequence="0" value="0"/>
+                <element label="Standard" sequence="1" value="1"/>
+                <element label="Intensive" sequence="2" value="2"/>
+                <element label="NoTest-Required" sequence="3" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">dcc26ca1dbb7360071a271efbf9619df</sp_column>
+        <sp_widget display_value="Enroll Form">14d7c701db7bf20071a271efbf961928</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>prasad</sys_created_by>
+        <sys_created_on>2017-07-06 10:21:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3fc2eca1dbb7360071a271efbf961921</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>sp_instance_3fc2eca1dbb7360071a271efbf961921</sys_update_name>
+        <sys_updated_by>dinesh</sys_updated_by>
+        <sys_updated_on>2017-07-17 05:14:55</sys_updated_on>
+        <title>test</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"disableUIActions": {
+		"value": "",
+		"displayValue": ""
+	},
+	"showFormView": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"page": "x_91375_hospital_m_enrollment",
+	"sys_id": "-1",
+	"omitHeaderOptions": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Doctor schedule" max_length="40" name="x_91375_hospital_m_doctor_schedule" type="collection">
+        <element label="Appointment Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Doctor" max_length="32" name="doctor" reference="x_91375_hospital_m_doctor" type="reference"/>
+        <element label="Working time" max_length="40" name="working_time" type="glide_time"/>
+        <index name="index">
+            <element name="doctor"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function ($http, $window, spUtil) {	 
+	var c = this;	
+//   $http.get(c.options.queue_url).then(function (response) {		
+//     if (response.data.result && response.data.result.length)
+//       angular.extend(c.data, response.data.result[0]);
+//     else
+//       angular.extend(c.data, response.data.result);
+		
+//   })	
+  c.open = function () {		
+		console.log(spUtil.format(c.options.window.url, {sys_id: c.data.sys_id}), c.options.window.target, c.options.window.options)
+    $window.open(spUtil.format(c.options.window.url, {sys_id: c.data.sys_id}), c.options.window.target, c.options.window.options);
+  };
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.waiting-time {&#13;
+  float: right;&#13;
+  margin-right: 5px;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>Chat</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {	
+	// Default Values
+// 	options.queue_url = options.queue_url || '/api/now/connect/support/queues';	
+// 	if (options.queue_name) 
+// 		options.queue_url += '?queue_name=' + options.queue_name;
+		
+// 	if (options.queue_id) 
+// 		options.queue_url += '/' + options.queue_id;
+	
+// 	options.title = options.title || 'Chat Support';
+// 	options.title = gs.getMessage(options.title);	
+	
+	//data.message = 'Ask Question?';
+	//options.message = gs.getMessage(options.message);
+	//data.open = '/$chat_support.do?queueID={sys_id}',
+		//console.log(spUtil.format(c.options.window.url, {sys_id: c.data.sys_id}), c.options.window.target, c.options.window.options);
+   
+  
+options.window = options.window || {url: '/$chat_support.do?queueID={sys_id}', target: '_blank', options: 'location=no,toolbar=no,menubar=no,scrollbars=yes,width=760,height=600'};		
+});]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>prasad</sys_created_by>
+        <sys_created_on>2017-07-12 06:41:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d92a2a53dbbf3a0071a271efbf9619f5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Chat</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>sp_header_footer_d92a2a53dbbf3a0071a271efbf9619f5</sys_update_name>
+        <sys_updated_by>prasad</sys_updated_by>
+        <sys_updated_on>2017-07-12 10:39:19</sys_updated_on>
+        <template><![CDATA[ <div><!--class="panel panel-{{::c.options.color}} b"  
+  <div class="panel-heading">
+    <h4 class="panel-title">{{::c.options.title}}</h4>
+  </div> class="panel-body"   --> 
+  <div >  
+    <a class="btn btn-info btn-block" ng-click="c.open()" >Ask Question??</a>    
+  </div>     
+  <div class="panel-footer clearfix">
+    <div class="pull-right">Avg wait: {{::c.data.average_wait_time}}</div>
+  </div>
+</div>]]></template>
+    </sp_header_footer>
+</record_update>

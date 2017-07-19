@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Appointment" max_length="40" name="x_91375_hospital_m_appintment" type="collection">
+        <element label="Consulting Date" max_length="40" name="consulting_date" type="glide_date"/>
+        <element label="Consulting time" max_length="40" name="consulting_time" type="glide_time"/>
+        <element label="Doctor To Meet" max_length="32" name="doctor_to_meet" reference="x_91375_hospital_m_doctor" type="reference"/>
+        <element label="Patient Name" max_length="32" name="patient_name" reference="x_91375_hospital_m_patient" type="reference"/>
+        <index name="index">
+            <element name="patient_name"/>
+        </index>
+        <index name="index2">
+            <element name="doctor_to_meet"/>
+        </index>
+    </element>
+</database>

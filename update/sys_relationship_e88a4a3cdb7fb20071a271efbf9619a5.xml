@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_91375_hospital_m_doctor</basic_apply_to>
+        <basic_query_from>x_91375_hospital_m_patient</basic_query_from>
+        <insert_callback/>
+        <name>Patient List</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery('x_91375_hospital_m_consultant', parent.sys_id);]]></query_with>
+        <reference_field>x_91375_hospital_m_consultant</reference_field>
+        <related_list/>
+        <simple_reference>true</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>balakannan</sys_created_by>
+        <sys_created_on>2017-07-04 10:03:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e88a4a3cdb7fb20071a271efbf9619a5</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>Patient List</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>sys_relationship_e88a4a3cdb7fb20071a271efbf9619a5</sys_update_name>
+        <sys_updated_by>dinesh</sys_updated_by>
+        <sys_updated_on>2017-07-04 12:19:37</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=e88a4a3cdb7fb20071a271efbf9619a5"/>
+</record_update>

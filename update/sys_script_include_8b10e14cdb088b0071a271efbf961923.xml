@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_91375_hospital_m.testing_task</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>testing_task</name>
+        <script><![CDATA[function testing_task()
+{
+	// Add your code here
+	
+var task = new GlideAggregate('x_91375_hospital_m_testing_task');
+task.addAggregate('COUNT');
+var a=task.addQuery('state',3);
+	a.addOrCondition('state',4);
+	a.addOrCondition('state',5);
+task.addQuery('parent_number', current.number);
+task.query();
+ var task1 = new GlideAggregate('x_91375_hospital_m_testing_task');
+task1.addAggregate('COUNT');
+
+task1.addQuery('parent_number', current.number);
+task1.query();
+var count = -1;
+if (task.next()) {
+     count = task.getAggregate('COUNT');
+	task1.next();
+	count1=task1.getAggregate('COUNT');
+	 
+     if (count != count1) {
+          
+         
+		 return false;
+		 
+     }
+	else
+		{
+			
+			return true;
+		}
+}
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-14 09:14:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8b10e14cdb088b0071a271efbf961923</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>testing_task</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>sys_script_include_8b10e14cdb088b0071a271efbf961923</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-14 09:34:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

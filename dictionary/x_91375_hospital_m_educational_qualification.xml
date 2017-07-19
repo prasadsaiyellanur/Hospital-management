@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Educational Qualification" max_length="40" name="x_91375_hospital_m_educational_qualification" type="collection">
+        <element label="Graduated Year of PG" max_length="10" name="graduated_year_of_pg" type="integer"/>
+        <element label="Graduated Year of UG" max_length="10" name="graduated_year_of_ug" type="integer"/>
+        <element label="Post Graduation" max_length="50" name="post_graduation" type="string"/>
+        <element label="Under Graduation" max_length="50" name="under_graduation" type="string"/>
+    </element>
+</database>

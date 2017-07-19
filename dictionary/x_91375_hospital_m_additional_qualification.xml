@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Additional Qualification" max_length="40" name="x_91375_hospital_m_additional_qualification" type="collection">
+        <element label="Department" max_length="32" name="department" reference="x_91375_hospital_m_hospital_department" type="reference"/>
+        <element label="Endorsement" max_length="200" name="endorsement" type="journal_input"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+    </element>
+</database>

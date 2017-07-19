@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[dat=g_form.getValue('date');
+document.getElementById('time').innerHTML=dat;
+var v=new GlideRecord("x_91375_hospital_m_patient");
+
+v.query();
+
+		for(i=0;i<10;i++)
+			{
+			
+				var concat="sunday"+i;
+			
+				document.getElementById(concat).value=v.name;
+				v.next();
+			}
+		
+
+]]></client_script>
+        <description>&lt;font color="white"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/font&gt;</description>
+        <direct>false</direct>
+        <endpoint>x_91375_hospital_m_doctoravailability.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    <table cellspacing="10">
+      <div class="row1"><tr><td id="time" class="row1cell" >Day\Time</td>
+        <td class="row1cell" > 9 A.M</td>
+        <td class="row1cell"  >10 A.M</td>
+        <td class="row1cell" >11 A.M</td>
+        <td class="row1cell" >12 A.M</td>
+        <td class="row1cell" >1 P.M</td>
+         <td class="row1cell" >2 P.M</td>
+         <td class="row1cell">3 P.M</td>
+         <td class="row1cell">4 P.M</td>
+        <td class="row1cell" >5 P.M</td> </tr>
+		
+		  <tr >  <td id="sunday0"  style="background:green"  ><label style="color:white">Patient Name</label></td>
+        <td ><input type="text" id="sunday1"/></td>
+        <td ><input type="text" id="sunday2"/></td>
+        <td ><input type="text" id="sunday3"/></td>
+        <td><input type="text" id="sunday4"/></td>
+         <td><input type="text" id="sunday5"/></td>
+        <td ><input type="text" id="sunday6"/></td>
+        <td ><input type="text"  id="sunday7"/></td>
+        <td><input type="text"  id="sunday8" /></td>
+        <td  ><input type="text" id="sunday9"/></td>
+        </tr>
+		</div>
+		
+		  </table>
+	<style>
+		td{
+		padding:20px;
+		}
+		.row1cell, .row2cell{
+		background:green;
+		color:white;
+		}
+		input[type="text"]
+		{
+	 text-align: center;
+		}
+		</style>
+        
+</j:jelly>]]></html>
+        <name>doctoravailability</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>dinesh</sys_created_by>
+        <sys_created_on>2017-07-11 08:43:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d2aaf1c3dbb33a0071a271efbf961979</sys_id>
+        <sys_mod_count>67</sys_mod_count>
+        <sys_name>doctoravailability</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>sys_ui_page_d2aaf1c3dbb33a0071a271efbf961979</sys_update_name>
+        <sys_updated_by>dinesh</sys_updated_by>
+        <sys_updated_on>2017-07-11 10:43:03</sys_updated_on>
+    </sys_ui_page>
+</record_update>

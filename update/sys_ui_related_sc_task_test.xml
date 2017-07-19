@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="sc_task" version="2" view="test">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Catalog Task - test" name="sc_task" related_list="NULL" sys_domain="global" view="c7479b1ddbb3360071a271efbf961974">ed191f5ddbb3360071a271efbf961923</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-06 04:59:01</sys_created_on>
+            <sys_id>a5191f5ddbb3360071a271efbf961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-06 04:59:01</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Catalog Task - test</calculated_name>
+            <filter/>
+            <name>sc_task</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-06 04:59:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed191f5ddbb3360071a271efbf961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Catalog Task - test</sys_name>
+            <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+            <sys_update_name>sys_ui_related_sc_task_test</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-06 04:59:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="test" name="test">c7479b1ddbb3360071a271efbf961974</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

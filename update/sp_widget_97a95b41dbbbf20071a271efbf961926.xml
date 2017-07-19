@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.sp-tagline-color {
+	color: green;
+}
+
+div {
+    background-color: ;
+}
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,short_description</field_list>
+        <has_preview>true</has_preview>
+        <id>search_patient</id>
+        <internal>false</internal>
+        <link/>
+        <name>Search Patient</name>
+        <option_schema>[{"name":"typeahead_search","default_value":"{title: 'How can we help?', size: 'lg', color: 'default'}","label":"Typeahead Search","type":"string"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[data.typeAheadSearch = $sp.getWidget('typeahead-search', options.typeahead_search);]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>balakannan</sys_created_by>
+        <sys_created_on>2017-07-05 10:23:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>97a95b41dbbbf20071a271efbf961926</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Search Patient</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>sp_widget_97a95b41dbbbf20071a271efbf961926</sys_update_name>
+        <sys_updated_by>dinesh</sys_updated_by>
+        <sys_updated_on>2017-07-06 10:47:39</sys_updated_on>
+        <template><![CDATA[
+ <div class="wrapper-x2">
+   
+
+<div id="homepage-search" class="hidden-xs wrapper-xl">
+  <div class="wrapper-xl">
+  	<h1 class="text-top text-4x m-b-lg sp-tagline-color" ng-bind="options.title"></h1>
+  	<h4 ng-if="options.short_description" class="text-top m-b-lg sp-tagline-color" ng-bind="options.short_description"></h4>
+  	<sp-widget widget="data.typeAheadSearch" />
+  </div>
+</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="appointment_slot" table="x_91375_hospital_m_schedule_per_hour" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9 A.M</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_schedule_per_hour</name>
+            <sequence>0</sequence>
+            <sys_created_by>dinesh</sys_created_by>
+            <sys_created_on>2017-07-18 10:49:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e5c1a15db80430071a271efbf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh</sys_updated_by>
+            <sys_updated_on>2017-07-18 10:49:20</sys_updated_on>
+            <value>9 A.M</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10 A.M</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_schedule_per_hour</name>
+            <sequence>1</sequence>
+            <sys_created_by>dinesh</sys_created_by>
+            <sys_created_on>2017-07-18 10:49:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e5c1a15db80430071a271efbf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh</sys_updated_by>
+            <sys_updated_on>2017-07-18 10:49:20</sys_updated_on>
+            <value>10 A.M</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11 A.M</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_schedule_per_hour</name>
+            <sequence>2</sequence>
+            <sys_created_by>dinesh</sys_created_by>
+            <sys_created_on>2017-07-18 10:49:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a5c1a15db80430071a271efbf961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh</sys_updated_by>
+            <sys_updated_on>2017-07-18 10:49:20</sys_updated_on>
+            <value>11 A.M</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12 A.M</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_schedule_per_hour</name>
+            <sequence>3</sequence>
+            <sys_created_by>dinesh</sys_created_by>
+            <sys_created_on>2017-07-18 10:49:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c65c1a15db80430071a271efbf961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh</sys_updated_by>
+            <sys_updated_on>2017-07-18 10:49:20</sys_updated_on>
+            <value>12 A.M</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 P.M</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_schedule_per_hour</name>
+            <sequence>4</sequence>
+            <sys_created_by>dinesh</sys_created_by>
+            <sys_created_on>2017-07-18 10:49:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>065c1a15db80430071a271efbf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh</sys_updated_by>
+            <sys_updated_on>2017-07-18 10:49:20</sys_updated_on>
+            <value>1 P.M</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 P.M</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_schedule_per_hour</name>
+            <sequence>5</sequence>
+            <sys_created_by>dinesh</sys_created_by>
+            <sys_created_on>2017-07-18 10:49:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>425c1a15db80430071a271efbf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh</sys_updated_by>
+            <sys_updated_on>2017-07-18 10:49:20</sys_updated_on>
+            <value>2 P.M</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 P.M</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_schedule_per_hour</name>
+            <sequence>6</sequence>
+            <sys_created_by>dinesh</sys_created_by>
+            <sys_created_on>2017-07-18 10:49:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e5c1a15db80430071a271efbf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh</sys_updated_by>
+            <sys_updated_on>2017-07-18 10:49:20</sys_updated_on>
+            <value>3 P.M</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 P.M</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_schedule_per_hour</name>
+            <sequence>7</sequence>
+            <sys_created_by>dinesh</sys_created_by>
+            <sys_created_on>2017-07-18 10:49:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca5c1a15db80430071a271efbf96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh</sys_updated_by>
+            <sys_updated_on>2017-07-18 10:49:20</sys_updated_on>
+            <value>4 P.M</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_slot</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 P.M</label>
+            <language>en</language>
+            <name>x_91375_hospital_m_schedule_per_hour</name>
+            <sequence>8</sequence>
+            <sys_created_by>dinesh</sys_created_by>
+            <sys_created_on>2017-07-18 10:49:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a5c1a15db80430071a271efbf96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh</sys_updated_by>
+            <sys_updated_on>2017-07-18 10:49:20</sys_updated_on>
+            <value>5 P.M</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>appointment_slot</element>
+            <name>x_91375_hospital_m_schedule_per_hour</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dinesh</sys_created_by>
+            <sys_created_on>2017-07-18 10:49:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0a5c1a15db80430071a271efbf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>appointment_slot</sys_name>
+            <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+            <sys_update_name>sys_choice_x_91375_hospital_m_schedule_per_hour_appointment_slot</sys_update_name>
+            <sys_updated_by>dinesh</sys_updated_by>
+            <sys_updated_on>2017-07-18 10:49:20</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

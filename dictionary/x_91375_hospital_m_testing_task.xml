@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="testing task" max_length="40" name="x_91375_hospital_m_testing_task" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="parent Number" max_length="40" name="parent_number" type="string"/>
+        <element label="short description" max_length="40" name="short_description" type="string"/>
+        <element choice="1" default="open" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="open" sequence="0" value="1"/>
+                <element label="working in progress" sequence="1" value="2"/>
+                <element label="closed completed" sequence="2" value="3"/>
+                <element label="closed incomplete" sequence="3" value="4"/>
+                <element label="skipped" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="task number" max_length="40" name="task_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="TEST Name" max_length="40" name="test_name" type="choice">
+            <choice>
+                <element label="Blood Test" sequence="0" value="Blood Test"/>
+                <element label="Urine Test" sequence="1" value="Urine Test"/>
+                <element label="VITAMIN B12 AND FOLATE" sequence="2" value="VITAMIN B12 AND FOLATE"/>
+                <element label="BLOOD GLUCOSE" sequence="3" value="BLOOD GLUCOSE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test Type" max_length="40" name="test_type" type="choice">
+            <choice>
+                <element label="GT" sequence="0" value="GT"/>
+                <element label="Basic" sequence="1" value="Basic"/>
+                <element label="Standard" sequence="2" value="Standard"/>
+                <element label="Intensive" sequence="3" value="Intensive"/>
+            </choice>
+        </element>
+    </element>
+</database>

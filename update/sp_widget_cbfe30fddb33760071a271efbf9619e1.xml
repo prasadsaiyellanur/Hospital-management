@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>drop_down_knowledge_articl3es</id>
+        <internal>false</internal>
+        <link/>
+        <name>Drop down knowledge articl3es</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function(){
+	var gr = $sp.getInstanceRecord();
+	data.href = $sp.getMenuHREF(gr);
+	data.target = options.target || "";
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>dinesh</sys_created_by>
+        <sys_created_on>2017-07-07 07:02:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cbfe30fddb33760071a271efbf9619e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Drop down knowledge articl3es</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>sp_widget_cbfe30fddb33760071a271efbf9619e1</sys_update_name>
+        <sys_updated_by>balakannan</sys_updated_by>
+        <sys_updated_on>2017-07-07 11:45:16</sys_updated_on>
+        <template><![CDATA[
+<div class="row">
+   <div class="col-sm-3">
+  <!--// Top Icon -->
+  <li>  <a ng-if="::(options.link_template == 'Top Icon' || !options.link_template)" ng-href="{{::data.href}}" class="top_icon {{::options.class_name}}" target="{{::data.target}}"> {{::options.title}} </a></li>
+     <li><a ng-if="::(options.link_template == 'Circle Icon')" ng-href="{{::data.href}}" class="circle_icon {{::options.class_name}} text-{{::options.color}}" target="{{::data.target}}">{{::options.title}}</a></li>
+     <li> <a ng-if="::(options.link_template == 'Color Box')" ng-href="{{::data.href}}" class="color_box {{::options.class_name}} icon-link-background-{{::options.color}} text-white" target="{{::data.target}}">{{::options.title}} </a></li>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

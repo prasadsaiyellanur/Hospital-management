@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Prescription" max_length="40" name="x_91375_hospital_m_prescription" type="collection">
+        <element label="Days" max_length="40" name="days" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4100" name="description" type="string"/>
+        <element label="how many days" max_length="40" name="how_many_days" type="glide_time"/>
+        <element label="patient name" max_length="32" name="patient_name" reference="x_91375_hospital_m_patient" type="reference"/>
+        <element label="Tablet name" max_length="40" name="tablet_name" type="string"/>
+        <element choice="1" label="When to take" max_length="40" name="when_to_take" type="choice">
+            <choice>
+                <element label="morning" sequence="0" value="morning"/>
+                <element label="lunch" sequence="1" value="lunch"/>
+                <element label="afternoon" sequence="2" value="afternoon"/>
+                <element label="dinner" sequence="3" value="dinner"/>
+                <element label="all" sequence="4" value="all"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="patient_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_user" label="Staff Profile" max_length="40" name="x_91375_hospital_m_staff_profile" type="collection">
+        <element label="Address" max_length="100" name="address" type="journal_input"/>
+        <element label="Doctor Reporting To" max_length="32" name="doctor_reporting_to" reference="x_91375_hospital_m_doctor" type="reference"/>
+        <element label="Mobile" max_length="15" name="mobile" type="integer"/>
+        <index name="index">
+            <element name="doctor_reporting_to"/>
+        </index>
+    </element>
+</database>

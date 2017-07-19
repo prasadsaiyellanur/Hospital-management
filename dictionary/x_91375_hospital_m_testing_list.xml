@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="task" label="testing list" max_length="40" name="x_91375_hospital_m_testing_list" sizeclass="2" type="collection">
+        <element label="Test Name" max_length="500" name="test_name" type="string"/>
+        <element choice="1" label="Test Sub type" max_length="500" name="test_sub_type" type="choice">
+            <choice>
+                <element label="Basic" sequence="0" value="Basic"/>
+                <element label="Standard" sequence="1" value="Standard"/>
+                <element label="intensive" sequence="2" value="intensive"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test type" max_length="500" name="test_type" type="string">
+            <choice>
+                <element label="General Test" sequence="0" value="General Test"/>
+            </choice>
+        </element>
+    </element>
+</database>

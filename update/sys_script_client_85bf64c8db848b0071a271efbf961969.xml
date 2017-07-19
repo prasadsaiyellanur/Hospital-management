@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>date</field>
+        <global>true</global>
+        <messages/>
+        <name>setting week number</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+		var a=g_form.getValue('date');
+	
+	a=a.split("-");
+	var temp0=a[0];
+	var temp1=a[1];
+	var temp2=a[2];
+	a[0]=temp1;
+	a[1]=temp2;
+    a[2]=temp0;
+a=a.join();
+	
+	//alert(a);
+var n=a.replace(",","/");
+	var m=n.replace(",","/");
+	//alert(m);
+	
+	
+	var date1 = new Date("1/01/2017");
+var date2 = new Date(m);
+
+var timeDiff = Math.abs(date2.getTime() - date1.getTime());
+var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
+var weekcount=diffDays/7;
+	weekcount=weekcount.round();
+	g_form.setValue('week_number',weekcount);
+	//alert(weekcount);
+	
+
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>dinesh</sys_created_by>
+        <sys_created_on>2017-07-14 05:44:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85bf64c8db848b0071a271efbf961969</sys_id>
+        <sys_mod_count>73</sys_mod_count>
+        <sys_name>setting week number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>sys_script_client_85bf64c8db848b0071a271efbf961969</sys_update_name>
+        <sys_updated_by>dinesh</sys_updated_by>
+        <sys_updated_on>2017-07-18 10:49:54</sys_updated_on>
+        <table>x_91375_hospital_m_schedule_per_hour</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

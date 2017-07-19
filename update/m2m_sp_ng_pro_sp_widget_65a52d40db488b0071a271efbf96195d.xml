@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="spAttachmentManager">06e836f0d722120023c84f80de6103a1</sp_angular_provider>
+        <sp_widget display_value="Hospital form">eda5a940db488b0071a271efbf9619a3</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>balakannan</sys_created_by>
+        <sys_created_on>2017-07-14 09:37:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>65a52d40db488b0071a271efbf96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spAttachmentManager.Hospital form</sys_name>
+        <sys_package display_value="Hospital management" source="x_91375_hospital_m">2af25964dbb3b20071a271efbf961928</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hospital management">2af25964dbb3b20071a271efbf961928</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_65a52d40db488b0071a271efbf96195d</sys_update_name>
+        <sys_updated_by>balakannan</sys_updated_by>
+        <sys_updated_on>2017-07-14 09:37:57</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+</record_update>

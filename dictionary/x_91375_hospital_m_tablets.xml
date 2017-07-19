@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Tablets" max_length="40" name="x_91375_hospital_m_tablets" type="collection">
+        <element choice="1" label="Tablet Name" max_length="100" name="tablet_name" type="string">
+            <choice/>
+        </element>
+    </element>
+</database>
